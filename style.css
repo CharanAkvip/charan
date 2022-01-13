@@ -1,0 +1,48 @@
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover { --x: 100%; }
+
+.btn-1 {
+  --c1: #8fd3f4;
+  --c2: #8fd3f4;
+}
+
+.btn-2 {
+  --c1: #8fd3f4;
+  --c2: #8fd3f4;
+}
+
+.btn-3 {
+  --c1: #8fd3f4;
+  --c2: #8fd3f4;
+}
+
+.btn-4 {
+  --c1: #8fd3f4;
+  --c2: #8fd3f4;
+}
+
+.btn-5 {
+  --c1: #8fd3f4;
+  --c2: #8fd3f4;
+}
+
+/* Magic Stuff End -> */
